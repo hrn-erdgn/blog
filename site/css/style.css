@@ -1,0 +1,61 @@
+body { /* Sayfanin Govdesi */
+  font-family: serif, monospace;
+  background-color: #111111; /* tum sayfanin arka plan rengi*/
+  color: #CCCCCC;
+  width: 40%;
+  padding: 0; /* Varsayılan padding'i kaldır */
+  margin: 100px auto; /* Otomatik marj ile listeyi sayfanın ortasına al */
+  overflow: hidden; /* Taşma durumunda içeriği gizle (gerekiyorsa) */
+
+}
+h1 { /* h1 etiketli Baslik yani */
+	    text-align: left;
+            border-bottom: 1px solid #CCCCCC;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+        
+}
+
+p { /* paragraf etiketi ozellikleri */
+}
+
+a { /* linkler */
+  color: #4A90E2;
+  text-decoration: none;
+}
+
+a:hover {/* link ustune gelince*/
+  color: #4A90E2;
+  text-decoration: underline;
+}
+
+code { /* code yazarsak ne olacak*/
+
+    color: #DDDDDD; /* Kod metni için açık gri */
+    font-family: 'Courier New', monospace;
+}
+pre {
+
+
+}
+
+
+
+ul {
+
+}
+.yazi-tarihi {
+  font-size: 13px;
+  color: #B0B0B0;
+}
+.yazi-link {
+    display: block; /* Her linki blok seviyesinde göster */
+    white-space: normal; /* Metni gerekirse alt satıra geçir */
+    overflow-wrap: break-word; /* Uzun kelimeleri satır sonunda kır */
+    padding: 5px 0; /* Liste elemanları arasında boşluk bırak */
+    text-decoration: none; /* Link altçizgilerini kaldır */
+    font-size: 24px;
+}
+.yazi-listesi {
+   list-style: none;
+}
